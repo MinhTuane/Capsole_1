@@ -4,6 +4,7 @@ import "@stream-io/video-react-sdk/dist/css/styles.css";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "sonner";
+import 'react-datepicker/dist/react-datepicker.css'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
